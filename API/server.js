@@ -19,10 +19,10 @@ var app = express();
 //db connection
 
 app.use(connection(mysql, {
-host: "localhost",
-user: "chibuzor",
-password: "chibuzor618",
-database: "emeraldfeild_db"
+host: "",//DB HOSt
+user: "", // DB USERNAME
+password: "", // DB PASSWORD
+database: "" // DB
 },'request'));
 
 console.log(rsaValidation());
